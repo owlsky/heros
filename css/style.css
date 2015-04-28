@@ -1,0 +1,159 @@
+/* Base
+–––––––––––––––––––––––––––––––––––––––––––––––––– */
+body {
+  /*font-size: 1.4rem;*/
+}
+h2,
+h4,
+h5 {
+  font-weight: bold;
+  color: #5b5b5b;
+}
+a {
+  color: #6d6d6d;
+  text-decoration: none;
+  -webkit-transition: color .3s;
+  transition: color .3s;
+}
+a:hover {
+  color: #ff4242;
+}
+a img {
+  vertical-align: top;
+}
+
+/* Layout
+–––––––––––––––––––––––––––––––––––––––––––––––––– */
+.navbar {
+  padding-top: 31px;
+  padding-bottom: 31px;
+}
+.navbar .logo {
+  display: block;
+}
+
+.nav {
+  margin-left: -2rem;
+  margin-bottom: 0;
+  list-style-type: none;
+}
+@media screen and (min-width: 550px) {
+  .nav {
+    float: right;
+  }
+}
+.nav__item {
+  float: left;
+  margin-left: 2rem;
+  margin-bottom: 0;
+}
+.nav__item a {
+  display: block;
+  font-size: 1.4rem;
+  line-height: 2.8rem;
+  color: #5e5e5e;
+  text-decoration: none;
+}
+.nav__item a:hover {
+  color: #ff4242;
+}
+
+/*Slider*/
+.slides-wrap {
+  position: relative;
+}
+.caption {
+  position: absolute;
+  left: 25%;
+  right: 25%;
+  width: auto;
+  top: 50%;
+  -webkit-transform: translateY(-50%);
+  -ms-transform: translateY(-50%);
+  transform: translateY(-50%);
+}
+.caption h2 {
+  text-align: center;
+}
+.rslides_tabs {
+  position: absolute;
+  left: 0;
+  right: 0;
+  bottom: 20px;
+  text-align: center;
+  list-style-type: none;
+  z-index: 999;
+}
+.rslides_tabs li {
+  display: inline-block;
+  margin: 0 .5rem;
+}
+.rslides_tabs .rslides_here a {
+  background-color: #5b5b5b;
+}
+.rslides_tabs li a {
+  display: inline-block;
+  width: 12px;
+  height: 12px;
+  background-color: #fff;
+  border-radius: 100%;
+  text-indent: -9999px;
+}
+
+.services,
+.projects,
+.clients,
+.cta {
+  padding-top: 65px;
+  padding-bottom: 70px;
+}
+
+/*Call To Action*/
+.cta {
+  text-align: center;
+}
+
+/*Footer*/
+.brand {
+  opacity: .5;
+}
+.copyright {
+  margin-top: 20px;
+}
+
+
+/* Modules
+–––––––––––––––––––––––––––––––––––––––––––––––––– */
+.gallery {
+  margin-bottom: 0;
+  list-style-type: none;
+  text-align: justify;
+  font-size: 0;
+}
+.gallery:after {
+  content: '';
+  display: inline-block;
+  width: 100%;
+}
+.gallery li {
+  display: inline-block;
+  width: 20%;
+}
+
+.project {
+  display: block;
+  width: 333px;
+  height: 300px;
+}
+.p1 {
+  background-image: url(../images/p1.gif);
+}
+.p1:hover {
+  background-image: url(../images/p1-hover.gif);
+}
+.p2 {
+  background-image: url(../images/p2.gif);
+}
+.p2:hover {
+  background-image: url(../images/p2-hover.gif);
+}

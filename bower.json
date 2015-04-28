@@ -1,0 +1,8 @@
+{
+  "name": "Heros",
+  "dependencies": {
+    "skeleton-css": "*",
+    "jquery": "1.11.2",
+    "responsiveSlides.js": "*"
+  }
+}
